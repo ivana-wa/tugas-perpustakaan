@@ -4,6 +4,7 @@ $sql = "select * from anggota";
 $hasil = mysqli_query($koneksi, $sql);
 $jumlah = mysqli_num_rows($hasil);
 ?>
+<p>Jumlah Anggota: <?php echo $jumlah; ?></p>
 <table>
     <tr>
         <th>No</th>
